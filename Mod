@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Chores and Self-care Tracker</title>
+  </head>
+  <body>
+    <h1>Chores and Self-care Tracker</h1>
+    <form id="chores-form">
+      <h2>Chores</h2>
+      <label for="tidy-checkbox">Tidy:</label>
+      <input type="checkbox" id="tidy-checkbox"><br>
+      <label for="laundry-checkbox">Laundry:</label>
+      <input type="checkbox" id="laundry-checkbox"><br>
+      <label for="clean-checkbox">Clean:</label>
+      <input type="checkbox" id="clean-checkbox"><br>
+      <label for="meal-checkbox">Meal Prep:</label>
+      <input type="checkbox" id="meal-checkbox"><br>
+      <br>
+      <label for="hair-select">Wash hair:</label>
+      <select id="hair-select">
+        <option value="none">None</option>
+        <option value="weekly">Weekly</option>
+        <option value="bi-weekly">Bi-weekly</option>
+        <option value="monthly">Monthly</option>
+      </select>
+      <br>
+      <button type="submit">Save</button>
+    </form>
+    <form id="self-care-form">
+      <h2>Self-care</h2>
+      <label for="shower-checkbox">Shower:</label>
+      <input type="checkbox" id="shower-checkbox"><br>
+      <label for="skincare-checkbox">Skincare:</label>
+      <input type="checkbox" id="skincare-checkbox"><br>
+      <label for="exercise-checkbox">Exercise:</label>
+      <input type="checkbox" id="exercise-checkbox"><br>
+      <label for="meditation-checkbox">Meditation:</label>
+      <input type="checkbox" id="meditation-checkbox"><br>
+      <br>
+      <button type="submit">Save</button>
+    </form>
+    <h2>Bedroom Maintenance</h2>
+    <ul>
+      <li>Change bed linens every two weeks</li>
+      <li>Clean windows and mirrors once a month</li>
+      <li>Vacuum or sweep floors once a week</li>
+      <li>Dust surfaces every two weeks</li>
+    </ul>
+  </body>
+</html>
